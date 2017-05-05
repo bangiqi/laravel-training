@@ -10,7 +10,7 @@
 
                     </h3>
                     
-                    <a href="{{ url("/data_mahasiswa/add")}}">
+                    <a href="{{ route('mahasiswas.create')}}">
                         <button class="btn btn-primary pull-right btn-sm">
                             <span class="glyphicon glyphicon-plus"></span> Add Mahasiswa
                         </button>
@@ -48,7 +48,7 @@
                                             <span class="sr-only">Toggle Dropdown</span>
                                         </button>
                                     <ul class="dropdown-menu">
-                                            <li><a href="#">Edit</a></li>
+                                            <li><a href="{{ url("/mahasiswas/1/edit")}}">Edit</a></li>
                                             <li><a href="#">Delete</a></li>
                                         </ul>
                                     </div>

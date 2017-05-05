@@ -19,6 +19,8 @@ Route::get('/data_mahasiswa/add', function () {
     return view('add_mahasiswa');
 });
 
+Route::resource('mahasiswas', 'MahasiswaController');
+
 Route::get('/', function () {
     return view('welcome');
 });
